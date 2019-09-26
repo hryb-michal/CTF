@@ -13,3 +13,5 @@ Let's inspect this code. Some of the "puzzle" elements don't have directly decla
 Fixed code executed correctly on 100 successively generated frames, at the end displaying the flag:
   
 > ecsc{0phth4lm0logist}
+
+Which leaves me wondering, what is the use of returning false, which is mentioned as cheating? 
