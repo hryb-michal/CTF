@@ -1,10 +1,8 @@
-On your journey across the cyberspace you come across a legendary gamemaster. In order to prove yourself and get the flag beat him in his ancient game.
-
-The program old_game.py is running at:
-
-nc ecsc18.hack.cert.pl 10021
-
-
+>On your journey across the cyberspace you come across a legendary gamemaster. In order to prove yourself and get the flag beat >him in his ancient game.
+>
+>The program old_game.py is running at:
+>
+>nc ecsc18.hack.cert.pl 10021
 
 We are presented a game of rock-paper-scissors (RPS), in which we have to win 50 times, and after that guess a "random" number from one to million. Brute-forcing it would take ages, so we're not even going to try that.
 
@@ -18,4 +16,4 @@ Here comes the major problem I encountered - none of the possibilities worked. T
 After switching to its predecesor, Python has shown me only one possibility of a seed number. 
 I used it to generate the whole sequence again, and finally, 51st number - the answer to gamemasters question, which rewarded me with a flag:
 
-ecsc{I_am_the_4th_grade_champion_of_rock_paper_scissors}
+>ecsc{I_am_the_4th_grade_champion_of_rock_paper_scissors}
