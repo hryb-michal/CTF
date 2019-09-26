@@ -16,6 +16,6 @@ Having the sequence figured out, we could use it to guess the seed that was used
 Here comes the major problem I encountered - none of the possibilities worked. That's because all the time I was using Python 3.7, whereas the program is running using Python 2.x (Mind the hint in the filename!). Turns out, versions 2.x and 3.x have incompatible random number generators.
 
 After switching to its predecesor, Python has shown me only one possibility of a seed number. 
-I used it to generate the whole sequence again, and finally, 51st number - the answer to gamemasters question, presented below.
+I used it to generate the whole sequence again, and finally, 51st number - the answer to gamemasters question, which rewarded me with a flag:
 
 ecsc{I_am_the_4th_grade_champion_of_rock_paper_scissors}
