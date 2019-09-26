@@ -1,4 +1,4 @@
->On your journey across the cyberspace you come across a legendary gamemaster. In order to prove yourself and get the flag beat >him in his ancient game.
+>On your journey across the cyberspace you come across a legendary gamemaster. In order to prove yourself and get the flag beat him in his ancient game.
 >
 >The program old_game.py is running at:
 >
