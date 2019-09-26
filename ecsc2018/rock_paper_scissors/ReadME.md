@@ -11,7 +11,7 @@ The flag is used to generate a seed for pseudo random number generator, but it's
 First, we need to win RPS tournament. After every loss we have to reconnect to the server. Each time we make a move, no matter if a winning one, we are given our opponents move. That allows us to use its countermove during next connection. Getting whole sequence requires 50 connections. 
 
 Having the sequence figured out, we could use it to guess the seed that was used for generating them. Checking those 65536 possibilities would take at most a few seconds.
-Here comes the major problem I encountered - none of the possibilities worked. That's because all the time I was using Python 3.7, whereas the program is running using Python 2.x (Mind the hint in the filename!). Turns out, versions 2.x and 3.x have incompatible random number generators.
+Here comes the major problem I encountered - none of them worked. That's because all the time I was using Python 3.7, whereas the program is running using Python 2.x (Mind the hint in the filename!). Turns out, versions 2.x and 3.x have incompatible pseudo random number generators.
 
 After switching to its predecesor, Python presented me only one possibility of a seed number. 
 I used it to generate the whole sequence again, and finally, 51st number - the answer to gamemasters question, which rewarded me with a flag:
